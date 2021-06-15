@@ -19,10 +19,22 @@
 /* Card
 ###########################################################################  */
 
+@media only screen and (min-width: 600px) {
+  .card{
+    position: sticky;
+    top: 0;
+    max-width: var(--m) * 50;
+    background-color: var(--lightest);
+    border-radius: var(--radius-m);
+    overflow: hidden;
+    box-shadow: var(--n-shadow-l);
+  }
+}
+
 .card{
   position: sticky;
   top: 0;
-  width: 80%;
+  min-width: var(--xxs);
   background-color: var(--lightest);
   border-radius: var(--radius-m);
   overflow: hidden;

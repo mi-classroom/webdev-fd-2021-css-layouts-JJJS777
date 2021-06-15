@@ -10,7 +10,7 @@ html {
 body{
   font-family: var(--ff-normal);
   font-weight: var(--fw-normal);
-  font-size: var(--m);
+  font-size: clamp(var(--xxs), var(--m), var(--l));
   line-height: var(--lh-normal);
   color: var(--color-text);
   hyphens: auto;
